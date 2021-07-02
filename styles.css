@@ -83,6 +83,9 @@ h1, h2 , h3 {
  padding: 3% 15% 7%;
 }
 
+.card-body {
+  font-size: 30px;
+}  
 
 #press {
   background-color: #ef8172;
