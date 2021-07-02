@@ -1,0 +1,159 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+h1, h2 , h3 {
+  font-family: "Montserrat-Bold";
+
+}
+
+/* Headings*/
+
+.big-heading {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/*navigation*/
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.nav-item {
+ padding:0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight;
+}
+
+.navbar-brand {
+  font-family: 'Big Shoulders Stencil Display-Black', cursive;
+  font-size: 30px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  padding-bottom: 20px;
+  position: absolute;
+  right: 30%;
+}
+.icon {
+  padding: 30px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  margin: 20px;
+  width:10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.container-fluid {
+ padding: 3% 15% 7%;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#features { 
+  padding: 7% 15%;
+  font-weight: bold;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+
+}
+
+.feature-title {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+#testimonials {
+
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+  color: #fff;
+}
+
+.fab {
+  margin: 10px;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 5%;
+}
+#footer p {
+  margin-top: 30px;
+}
+
+@media (max-width:991px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    left: 250px;
+    transform: rotate(0);
+    width: 40%;
+    position: static;
+
+  }
+}
