@@ -114,12 +114,6 @@ hr {
   margin:auto;
 }
 
-.container {
-  width: 900px;
-  margin: auto;
-  position: relative;
-
-}
 
 
 .img-roll {
@@ -128,13 +122,13 @@ float: left;
 margin-right: 30px;
 margin-left: 30px;
 }
-.container h3 {
+.col-lg-6 h3 {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-right: 20px;
 }
-.container p {
+.col-lg-6 p {
   margin-top: 0px;
   text-align: left;
 }
